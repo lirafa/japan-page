@@ -1,0 +1,202 @@
+@import url('https://www.rio.br.emb-japan.go.jp/Publicacoes/Culinaria.pdf');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+
+#about {
+    padding: 1em 0;
+    background-color: #C0C0C0;
+}
+
+.about-container {
+    max-width: 1250px;
+    display: flex;
+    gap: 25px;
+}
+
+.about-container img {
+    max-width: 500px;
+    border-radius: 8px;
+    padding-left: 85px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text-container p {
+    margin-top: 5px;
+}
+
+#facts h2 {
+    margin-top: 50px; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.facts-container {
+    display: flex;
+    gap: 32px;
+}
+
+.fact-item {
+    flex: 0 1 550px;
+    overflow: hidden;
+}
+
+.fact-item img {
+    width: 110%;
+    height: auto;
+}
+
+.fact-item h2,
+.fact-item p {
+    padding: px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .facts-container {
+        flex-direction: column;
+    }
+}
+
+.iconTitle {
+    margin-top: 60px; 
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #C0C0C0; /* Cor de fundo da caixa */
+    padding: 1px; /* Espaçamento interno da caixa */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 500px; /* Largura máxima da caixa */
+    margin-left: auto; /* Alinha à direita */
+    margin-right: auto; /* Alinha à esquerda */
+    }
+
+.icons {
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.icon-container {
+    margin: 20px; 
+    text-align: center; 
+}
+
+.icon-circle {
+    width: 100px; 
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f6cad0;
+    margin: 0 auto; 
+    flex: 0 0 auto;
+}
+
+.icon-circle i {
+    font-size: 40px;
+    color: black;
+}
+
+.icon-label {
+    margin-top: 15px; 
+    color: black;
+}
+
+#newsletter {
+    background-color: #C0C0C0;
+    padding: 25px;
+    padding-left: 80px;
+}
+
+#newsletter h2 {
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 15px; 
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+}
+
+.input-group input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; 
+    margin-bottom: 10px; 
+    width: 300px; 
+    margin-bottom: 10px; 
+    color: black; 
+}
+.input-group input::placeholder {
+    color: black;
+}
+
+section button {
+    border: none;
+    border-radius: 5px;
+    background-color: #f6cad0;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px; 
+    font-size: 16px;
+    align-self: flex-end; 
+    font-weight: bold;
+}
+
+.newsletter-form button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.footer-item i {
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+
+
+.footer-item div span {
+    font-weight: bold;
+}
