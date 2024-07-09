@@ -83,13 +83,13 @@ main {
     margin-top: 60px; 
     text-align: center;
     margin-bottom: 50px;
-    background-color: #C0C0C0; /* Cor de fundo da caixa */
-    padding: 1px; /* Espaçamento interno da caixa */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    max-width: 500px; /* Largura máxima da caixa */
-    margin-left: auto; /* Alinha à direita */
-    margin-right: auto; /* Alinha à esquerda */
+    background-color: #C0C0C0;
+    padding: 1px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 500px; 
+    margin-left: auto;
+    margin-right: auto; 
     }
 
 .icons {
