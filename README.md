@@ -2,7 +2,7 @@
 
 Esta é uma página simples criada com **HTML** e **CSS**, que apresenta curiosidades e informações sobre o Japão, como pontos turísticos, cultura e muito mais.
 
-👉 [Clique para ver o site publicado](https://rafaelalima.github.io/projeto-japao/)  
+👉 (https://lirafa.github.io/japan-css-html-page/)
 
 
 ## ✨ Funcionalidades
