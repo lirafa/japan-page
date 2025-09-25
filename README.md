@@ -9,6 +9,8 @@ Esta é uma página simples criada com **HTML** e **CSS**, que apresenta curiosi
 - Links para curiosidades e cultura japonesa
 - Formulário para receber novidades por e-mail
 
+- https://lirafa.github.io/japan-page/
+
 ## 🖼 Imagem
 ![Imagem do Jogo](https://github.com/user-attachments/assets/3528be56-961d-47fe-842b-9f75e5dee1e9)
 ![](https://github.com/user-attachments/assets/63392b54-5028-47c2-a1bf-23da2ff341e0)
